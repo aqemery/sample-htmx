@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "htmx"
+version = "0.1.0"
+description = "fastapi with htmx"
+authors = ["Adam Emery <aqemery@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.111.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
